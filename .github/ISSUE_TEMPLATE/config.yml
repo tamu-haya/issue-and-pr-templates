@@ -1,1 +1,6 @@
 blank_issues_enabled: false
+
+contact_links:
+  - name: "Questions"
+    about: "Post your questions in the Questions category of GitHub Discussions."
+    url: "https://github.com/tamu-haya/issue-and-pr-templates/discussions/new?category=q-a"
