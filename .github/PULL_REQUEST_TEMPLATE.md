@@ -1,6 +1,11 @@
+<!--
+Remove all comments,
+as the PR description will be used directly as the commit message body.
+-->
+
 ### Overview
 
-<!-- Describe the purpose of this PR in one sentence. -->
+<!-- Describe the purpose of this PR clearly and concisely. -->
 
 ### Details
 
