@@ -1,0 +1,58 @@
+name: "Problem"
+description: "Create it if a problem occurs."
+labels: ["A-Type/Problem"]
+assignees:
+  - tamu-haya
+
+body:
+  - type: "textarea"
+    id: "overview"
+    attributes:
+      label: "Overview"
+      description: "Describe what kind of problem occurred clearly and concisely."
+    validations:
+      required: true
+
+  - type: "textarea"
+    id: "details"
+    attributes:
+      label: "Details"
+      description: "Describe if it could not be fully explained in the Overview."
+      value: "Nothing in particular."
+    validations:
+      required: true
+
+  - type: "textarea"
+    id: "environments"
+    attributes:
+      label: "Environments"
+      description: "Describe the environments where the problem occurred."
+      value: "It occurs in all environments."
+    validations:
+      required: true
+
+  - type: "textarea"
+    id: "steps-to-reproduce"
+    attributes:
+      label: "Steps to reproduce"
+      description: "Describe the steps to reproduce the problem clearly and concisely."
+      value: "This is a simple problem that does not require reproduction steps."
+    validations:
+      required: true
+
+  - type: "textarea"
+    id: "expected-behavior"
+    attributes:
+      label: "Expected behavior"
+      description: "Describe the improvements you except clearly and concisely."
+    validations:
+      required: true
+
+  - type: "textarea"
+    id: "additional-comments"
+    attributes:
+      label: "Additional comments"
+      description: "Describe any additional information you would like to share."
+      value: "Nothing in particular."
+    validations:
+      required: true
