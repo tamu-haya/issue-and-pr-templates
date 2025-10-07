@@ -1,0 +1,40 @@
+name: "Request"
+description: "Create it if you have any requests."
+labels: ["A-Type/Request"]
+assignees:
+  - h48t0
+
+body:
+  - type: "textarea"
+    id: "overview"
+    attributes:
+      label: "Overview"
+      description: "Describe your request clearly and concisely."
+    validations:
+      required: true
+
+  - type: "textarea"
+    id: "details"
+    attributes:
+      label: "Details"
+      description: "Describe if it could not be fully explained in the Overview."
+      value: "Nothing in particular."
+    validations:
+      required: true
+
+  - type: "textarea"
+    id: "reason"
+    attributes:
+      label: "Reason"
+      description: "Describe why it is necessary."
+    validations:
+      required: true
+
+  - type: "textarea"
+    id: "additional-comments"
+    attributes:
+      label: "Additional comments"
+      description: "Describe any additional information you would like to share."
+      value: "Nothing in particular."
+    validations:
+      required: true

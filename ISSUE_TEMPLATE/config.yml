@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: "GitHub Discussions"
+    about: "Post discussions and questions in GitHub Discussions."
+    url: "https://github.com/h48t0/<repository>/discussions/"
