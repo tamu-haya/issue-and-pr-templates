@@ -18,7 +18,7 @@ body:
     attributes:
       label: "Details"
       description: "Describe if it could not be fully explained in the Overview."
-      value: "Nothing in particular."
+      value: "*Nothing in particular.*"
     validations:
       required: true
 
