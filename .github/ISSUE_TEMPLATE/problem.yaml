@@ -5,7 +5,7 @@ assignees:
   - tamu-haya
 
 body:
-  - type: "textarea"
+  - type: "placeholder"
     id: "overview"
     attributes:
       label: "Overview"
